@@ -1,0 +1,71 @@
+body {
+    background-color: #F6F5FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#products div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px #9b9b9b solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 2px #E4E2F0 solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#products #checks {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 150px;
+    height: 20px;
+    border: 0px;
+    margin-top: 10px;
+}
+
+#checks input {
+    width: 15px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    font-size: 90%;
+    border: 1px #E4E2F0 solid;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border: 1px #E4E2F0 solid;
+    border-radius: 10px;
+    background-color:  #FFFFFF;
+}

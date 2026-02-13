@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <script src="checkUser.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS - Pracownik</title>
+
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="employee.css">
+</head>
+<body>
+    <div id="menu">
+        <div id="title"></div>
+        <div id="hello"></div>
+        <div id="menu_"></div>
+        <div id="logout"></div>
+    </div>
+
+    <h1>Pracownik</h1>
+
+   <div id="addProduct">
+        <h2>Dodawanie produktu</h2>
+        <label for="name">
+            Nazwa:
+        </label>
+        <input type="text" name="name" id="name" placeholder="Wpisz nazwę produktu">
+
+        <label for="desc">
+            Opis:
+        </label>
+        <input type="text" name="desc" id="desc" placeholder="Wpisz opis produktu">
+        
+        <button onclick="addProduct()">Dodaj Produkt</button>
+
+        <p id="status"></p>
+
+    </div>
+    
+    <div id="products">
+        
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="addProduct.js"></script>
+    <script src="employee.js"></script>
+</body>
+</html>
